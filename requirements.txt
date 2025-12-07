@@ -1,0 +1,11 @@
+torch
+torchvision
+numpy
+simpleitk
+opencv-python
+scipy
+matplotlib
+tqdm
+scikit-learn
+axial_attention
+kaggle
