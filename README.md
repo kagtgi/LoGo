@@ -1,4 +1,4 @@
-# LoGo: Local-Global Protonet for Abdominal Organ Segmentation
+# LoGo: Towards Marginal Fairness Local-Global Prototypical Networks for One-Shot Medical Image Segmentation
 
 ![LoGo Framework](LoGo_framework.png)
 
