@@ -38,10 +38,10 @@ def save_prediction_plot(sample_idx, support_img, support_mask, query_img, query
         return x.detach().cpu().numpy()
 
     # Helpers for display
-    s_img = to_cpu(support_img[0])
-    s_mask = to_cpu(support_mask[0])
-    q_img = to_cpu(query_img[0])
-    q_mask = to_cpu(query_mask[0])
+    s_img = to_cpu(support_img[0][0])
+    s_mask = to_cpu(support_mask[0][0])
+    q_img = to_cpu(query_img[0][0])
+    q_mask = to_cpu(query_mask[0][0])
     p_prob = to_cpu(pred_prob)
     p_mask = to_cpu(pred_mask)
 
